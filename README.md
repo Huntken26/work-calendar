@@ -6,6 +6,7 @@ This is a calendar application that allows users to save events or tasks for eac
 
 ## Installation:
 
+
 N/A
 
 ## Usage:
@@ -21,7 +22,7 @@ N/A
 https://huntken26.github.io/work-calendar/
 
 ## Screenshot/ Walkthrough:
-![Gif](Assets\Images\Screencastify.gif)
+![Screencastify](https://user-images.githubusercontent.com/107738986/193422453-cc03b54b-808d-4d65-8895-f858ef288ac6.gif)
 
 ## License:
 
