@@ -20,12 +20,9 @@ N/A
 
 N/A
 
-## Repo Link
-
-https://github.com/Huntken26/work-day-scheduler
 
 ## Deployed Link
 
 ## screenshots
 
-![Alt Text](Assets\Images\screencastify.gif)
+![Alt Text](Images\screencastify.gif)
