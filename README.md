@@ -21,7 +21,6 @@ N/A
 https://huntken26.github.io/work-calendar/
 
 ## Screenshot/ Walkthrough:
-
 ![Gif](Assets\Images\Screencastify.gif)
 
 ## License:
