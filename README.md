@@ -22,7 +22,7 @@ N/A
 
 
 ## Deployed Link
-
+https://huntken26.github.io/work-calendar/
 ## screenshots
 
 ![Alt Text](Assets\Images\screencastify.gif)
