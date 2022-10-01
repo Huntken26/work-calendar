@@ -10,24 +10,25 @@ function storage() {
     let time = $(this).parent().attr("id");
     localStorage.setItem(time, inputs);
   });
+//10/1 Just checked my site and the colors weren't updating. Currently researching and debugging 12:29pm
+//I found the solution! Apparently I made up thoe id's for the time blocks but i needed specific ids to convert the hours
+  $("#hour9 .input").val(localStorage.getItem("hour9"));
 
-  $("#am9 .input").val(localStorage.getItem("am9"));
+  $("#hour10 .input").val(localStorage.getItem("hour10"));
 
-  $("#am10 .input").val(localStorage.getItem("am10"));
+  $("#hour11 .input").val(localStorage.getItem("hour11"));
 
-  $("#am11 .input").val(localStorage.getItem("am11"));
+  $("#hour12 .input").val(localStorage.getItem("hour12"));
 
-  $("#noon .input").val(localStorage.getItem("noon"));
+  $("#hour13 .input").val(localStorage.getItem("hour13"));
 
-  $("#pm1 .input").val(localStorage.getItem("pm1"));
+  $("#hour14 .input").val(localStorage.getItem("hour14"));
 
-  $("#pm2 .input").val(localStorage.getItem("pm2"));
+  $("#hour15 .input").val(localStorage.getItem("hour15"));
 
-  $("#pm3 .input").val(localStorage.getItem("pm3"));
+  $("#hour16 .input").val(localStorage.getItem("hour16"));
 
-  $("#pm4 .input").val(localStorage.getItem("pm4"));
-
-  $("#pm5 .input").val(localStorage.getItem("pm5"));
+  $("#hour17 .input").val(localStorage.getItem("hour17"));
 }
 
 
