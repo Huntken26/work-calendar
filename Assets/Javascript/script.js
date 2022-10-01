@@ -29,3 +29,25 @@ function storage() {
     $("#pm5 .input").val(localStorage.getItem("pm5"));
   }
 
+  //function uses jQuery's each to loop the time blocks; also sets the conditions for the rows to be color coded.
+function calendar() {
+    $(".row").each(function () {
+      let otherColors = parseFloat($(this).attr("id").split("hour")[1]);
+      let red = moment().hour();
+  
+      if (otherColors < red) {
+        $(this).addClass("past");
+        $(this).removeClass("future");
+        $(this).removeClass("present");
+      } else if (otherColors === red) {
+        $(this).removeClass("past");
+        $(this).addClass("present");
+        $(this).removeClass("future");
+      } else {
+        $(this).removeClass("present");
+        $(this).removeClass("past");
+        $(this).addClass("future");
+      }
+    });
+  }
+
