@@ -25,4 +25,4 @@ N/A
 
 ## screenshots
 
-![Alt Text](Images\screencastify.gif)
+![Alt Text](Assets\Images\screencastify.gif)
