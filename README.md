@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a calendar application that allows the user to save events or tasks for each hour of the day. Work-day-scheduler runs in the browser and features dynamically updated HTML/CSS powered by jQuery. It uses Moment.js api to access the current date and time and Bootstrap library for the CSS.
+This is a calendar application that allows users to save events or tasks for each hour of the day. Work-day-scheduler runs in the browser and features dynamically updated HTML/CSS powered by jQuery. It uses Moment.js api to access the current date and time and Bootstrap library for the CSS.
 
 ## Installation
 
